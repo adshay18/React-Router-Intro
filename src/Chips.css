@@ -1,0 +1,44 @@
+.Chips-text {
+	background-color: rgba(148, 148, 148, 0.6);
+	width: 300px;
+	height: 300px;
+	position: relative;
+	left: 50px;
+	top: 25vh;
+	padding: 10px;
+	border-radius: 10px;
+	box-shadow: 10px 5px 5px rgb(120, 50, 50);
+	color: rgb(203, 203, 203);
+}
+
+.Chips-text a {
+	text-decoration: none;
+	color: rgb(120, 50, 50);
+	font-size: 1.5rem;
+}
+
+.Chips-text a:hover {
+	color: white;
+	text-decoration: underline;
+}
+
+img {
+	position: relative;
+	bottom: 250px;
+	left: 500px;
+	animation-name: pulse;
+	animation-duration: 0.5s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+}
+
+@keyframes pulse {
+	from {
+		transform: scale(1);
+		opacity: 1;
+	}
+	to {
+		transform: scale(0.75);
+		opacity: 0.25;
+	}
+}
