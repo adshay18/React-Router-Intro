@@ -1,5 +1,5 @@
 import './App.css';
-import { BrowserRouter, Route, Link } from 'react-router-dom';
+import { BrowserRouter, Route } from 'react-router-dom';
 import VendingMachine from './VendingMachine';
 import Coke from './Coke';
 import Chips from './Chips';
