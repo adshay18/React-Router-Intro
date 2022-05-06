@@ -1,0 +1,35 @@
+.Lunchables {
+	background-image: url('./images/sml-junior.gif');
+	height: 100vh;
+	position: absolute;
+	top: 0;
+	right: 0;
+	left: 0;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.Lunchables-text {
+	background-color: rgba(148, 148, 148, 0.6);
+	width: 300px;
+	height: 300px;
+	position: relative;
+	left: 50px;
+	top: 25vh;
+	padding: 10px;
+	border-radius: 10px;
+	box-shadow: 10px 5px 5px rgb(120, 50, 50);
+	color: rgb(203, 203, 203);
+}
+
+.Lunchables-text a {
+	text-decoration: none;
+	color: rgb(120, 50, 50);
+	font-size: 1.5rem;
+}
+
+.Lunchables-text a:hover {
+	color: white;
+	text-decoration: underline;
+}
