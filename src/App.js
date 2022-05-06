@@ -1,6 +1,9 @@
 import './App.css';
 import { BrowserRouter, Route, Link } from 'react-router-dom';
 import VendingMachine from './VendingMachine';
+import Coke from './Coke';
+import Chips from './Chips';
+import Lunchables from './Lunchables';
 
 function App() {
 	return (
@@ -10,16 +13,13 @@ function App() {
 					<VendingMachine />
 				</Route>
 				<Route exact path="/coke">
-					Coca cola
-					<Link exact path="/">
-						Home
-					</Link>
+					<Coke />
 				</Route>
 				<Route exact path="/chips">
-					Lays
+					<Chips />
 				</Route>
 				<Route exact path="/lunchables">
-					lunchables
+					<Lunchables />
 				</Route>
 			</BrowserRouter>
 		</div>
